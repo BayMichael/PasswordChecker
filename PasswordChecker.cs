@@ -12,9 +12,17 @@ class Program
       string specialChars = "#!%$&";
 
       // Asking the user for a password
+      Console.WriteLine("Please enter a password: ");
       string userPassword = Console.ReadLine();
 
       // Declaring a variable for the score of the password
       int score = 0;
+
+      // if the password is longer than minLength, add a point to score
+      if (userPassword.Length >= minLength)
+      {
+        score++;
+      }
+
     }
 }
