@@ -1,5 +1,6 @@
 ﻿using System;
-
+namespace tools;
+{
 class Program
 {
     static void Main()
@@ -24,5 +25,13 @@ class Program
         score++;
       }
 
+      // if the password contains uppercase letters, add a point to score
+      if (Tools.Contains(userPassword, uppercase))
+      {
+        score++;
+      }
+
+      Console.ReadLine();
     }
+  }
 }
