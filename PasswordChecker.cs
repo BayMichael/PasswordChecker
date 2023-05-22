@@ -43,6 +43,12 @@ class Program
         score++;
       }
 
+      // if the password contains special characters, add a point to score
+      if (Tools.Contains(userPassword, specialChars))
+      {
+        score++;
+      }
+
       Console.ReadLine();
     }
   }
