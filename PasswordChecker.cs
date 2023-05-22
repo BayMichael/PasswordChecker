@@ -37,6 +37,12 @@ class Program
         score++;
       }
 
+      // if the password contains digits, add a point to score
+      if (Tools.Contains(userPassword, digits))
+      {
+        score++;
+      }
+
       Console.ReadLine();
     }
   }
