@@ -31,6 +31,12 @@ class Program
         score++;
       }
 
+      // if the password contains lowercase letters, add a point to score
+      if (Tools.Contains(userPassword, lowercase))
+      {
+        score++;
+      }
+
       Console.ReadLine();
     }
   }
