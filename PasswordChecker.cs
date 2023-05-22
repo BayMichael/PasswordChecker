@@ -10,7 +10,7 @@ class Program
       string uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
       string lowercase = "abcdefghijklmnopqrstuvwxyz";
       string digits = "0123456789";
-      string specialChars = "#!%$&";
+      string specialChars = "#!%$&+-*/?";
 
       // Asking the user for a password
       Console.WriteLine("Please enter a password: ");
