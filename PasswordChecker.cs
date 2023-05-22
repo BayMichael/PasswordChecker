@@ -58,6 +58,26 @@ class Program
       Console.WriteLine(score);
 
       Console.ReadLine();
+
+      switch (score)
+      {
+        case 4:
+        case 5:
+          Console.WriteLine("Your password is: Extremely strong");
+          break;
+        case 3:
+          Console.WriteLine("Your password is: Strong");
+          break;
+        case 2:
+          Console.WriteLine("Your password is: Medium");
+          break;
+        case 1:
+          Console.WriteLine("Your password is: Weak");
+          break;
+      default:
+          Console.WriteLine("Your password doesn't meet the standards!");
+          break;
+      }
     }
   }
 }
