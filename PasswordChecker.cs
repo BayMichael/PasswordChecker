@@ -55,6 +55,8 @@ class Program
         score = 0;
       }
 
+      Console.WriteLine(score);
+
       Console.ReadLine();
     }
   }
