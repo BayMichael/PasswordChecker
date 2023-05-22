@@ -49,6 +49,12 @@ class Program
         score++;
       }
 
+      // checks if the password == "1234" or "password", if true, set score = 0
+      if (userPassword == "1234" || userPassword == "password")
+      {
+        score = 0;
+      }
+
       Console.ReadLine();
     }
   }
